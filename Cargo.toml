@@ -5,7 +5,7 @@ authors = ["Kevnew_rust"]
 edition = "2021"
 description = "A libary for doing simple calculations in Rust."
 license = "MIT"
-documentation = "file:///D:/Code/Rust-Lib/math-lib/target/doc/math_lib/index.html"
+documentation = "https://doc.rust-lang.org/beta/std/index.html"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
