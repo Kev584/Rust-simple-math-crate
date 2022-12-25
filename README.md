@@ -43,3 +43,4 @@ let answer = math_crate::divide(num1, num2);
 assert_eq!(2.366666666666667);
 ```
 Full documentation: [docs.rs/math-crate](https://docs.rs/math-crate/0.1.1/math_crate/index.html)
+Github repo: [github.com](https://github.com/Kev584/Rust-simple-math-crate.git)
