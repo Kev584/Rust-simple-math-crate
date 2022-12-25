@@ -1,6 +1,6 @@
 [package]
 name = "math-crate"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Kevnew_rust"]
 edition = "2021"
 description = "A libary for doing simple calculations in Rust."
