@@ -1,7 +1,7 @@
 
-//! # Math Libary
+//! # Math Crate
 //! 
-//! 'Math Libary' is a collection of utilities to perfom simple
+//! 'Math Crate' is a collection of utilities to perfom simple
 //! math calculations.
 
 /// Adds numbers together.

@@ -1,4 +1,4 @@
-use math_lib::*;
+use math_crate::*;
 
 fn main() {
     let num1 = 45;

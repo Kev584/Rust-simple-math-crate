@@ -1,5 +1,5 @@
 [package]
-name = "math-lib"
+name = "math-crate"
 version = "0.1.0"
 authors = ["Kevnew_rust"]
 edition = "2021"
