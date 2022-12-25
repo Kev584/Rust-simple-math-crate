@@ -11,8 +11,8 @@
 /// ```
 /// let num1 = 9;
 /// let num2 = 10;
-/// let answer = math_lib::add(num1, num2);
-/// println!("{}", answer);
+/// let answer = math_crate::add(num1, num2);
+/// assert_eq!(19);
 /// ```
 pub fn add(a: isize, b: isize) -> isize {
     a + b
@@ -24,8 +24,8 @@ pub fn add(a: isize, b: isize) -> isize {
 /// ```
 /// let num1 = 7;
 /// let num2 = 5;
-/// let answer = math_lib::subtract(num1, num2);
-/// println!("{}", answer);
+/// let answer = math_crate::subtract(num1, num2);
+/// assert_eq!(2);
 /// ```
 pub fn subtract(a: isize, b: isize) -> isize {
     a - b
@@ -37,8 +37,8 @@ pub fn subtract(a: isize, b: isize) -> isize {
 /// ```
 /// let num1 = 9;
 /// let num2 = 3;
-/// let answer = math_lib::multiply(num1, num2);
-/// println!("{}", answer);
+/// let answer = math_crate::multiply(num1, num2);
+/// assert_eq!(27);
 /// ```
 pub fn multiply(a: isize, b: isize) -> isize {
     a * b
@@ -50,8 +50,8 @@ pub fn multiply(a: isize, b: isize) -> isize {
 /// ```
 /// let num1 = 7.1;
 /// let num2 = 3.0;
-/// let answer = math_lib::divide(num1, num2);
-/// println!("{}", answer);
+/// let answer = math_crate::divide(num1, num2);
+/// assert_eq!(2.366666666666667);
 /// ```
 pub fn divide(a: f64, b: f64) -> f64 {
     a / b
@@ -63,8 +63,8 @@ pub fn divide(a: f64, b: f64) -> f64 {
 /// ```
 /// let num1 = 11;
 /// let num2 = 2;
-/// let answer = math_lib::find_remainder(num1, num2);
-/// println!("{}", answer);
+/// let answer = math_crate::find_remainder(num1, num2);
+/// assert_eq!(1);
 /// ```
 pub fn find_remainder(a: isize, b: isize) -> isize {
     a % b
